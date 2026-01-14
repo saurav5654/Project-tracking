@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Project tracking intro component</title>
+</head>
+<body>
+  <!-- Decorative background shape -->
+  <div class="bg-shape"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M32 0H0V32H32V0Z" fill="white"/>
+        </svg>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <img src="images/icon-hamburger.svg" alt="Open menu">
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#products">Product</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="new-badge">
+          <span class="new-text">New</span>
+        </div>
+        <h1 class="hero-title">Monograph Dashboard</h1>
+        <p class="hero-subtitle">Powerful insights into your team</p>
+        <p class="hero-description">Project planning and time tracking for agile teams</p>
+        <button class="cta-button">Schedule a demo</button>
+        <p class="demo-text">to see a live preview</p>
+      </div>
+      <div class="hero-image">
+        <img src="./images/illustration-devices.svg" alt="Monograph Dashboard on devices" class="illustration">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
